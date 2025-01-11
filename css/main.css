@@ -9,6 +9,23 @@
   --second-family: "Orbitron", sans-serif;
 }
 
+.container {
+  width: 390px;
+  padding: 40px 20px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .container {
+    width: 744px;
+    padding: 50px 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding: 80px 48px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -35,6 +52,11 @@ img {
   text-decoration: none;
 }
 
-h1 {
-  background-color: aqua;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 390px;
+  padding: 16px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
