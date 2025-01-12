@@ -20,26 +20,39 @@
 
    <header class="header">
      <a href="./index.html">
-       <svg width="24" height="24">
+       <!-- <svg width="24" height="24">
           <use href="./images/symbol-defs.svg#icon-logo"></use>
+       </svg> -->
+       <svg width="24" height="24">
+         <use href="./images/logo.svg"></use>
        </svg>
      </a>
-     <nav>
-        <ul>
-            <li class="list">About AI</li>
-            <li class="list">Applications</li>
-            <li class="list">Get involved</li>
-            <li class="list">Contact</li>
-        </ul>
-     </nav>
-     <svg  width="24" height="24">
-        <use href="./images/symbol-defs.svg#icon-frame"></use>
-      </svg>
-     <button>Get involved</button>
+     <div class="navigation__container">
+       <nav class="navigation">
+          <ul class="header__list">
+              <li class="list header__item"><a class="link header__link text" href="">About AI</a></li>
+              <li class="list header__item"><a class="link header__link text" href="">Applications</a></li>
+              <li class="list header__item"><a class="link header__link text" href="">Get involved</a></li>
+              <li class="list header__item"><a class="link header__link text" href="">Contact</a></li>
+          </ul>
+       </nav>
+       <!-- <svg  width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-frame"></use>
+        </svg> -->
+        <button class="button__secondary button__involved">Get involved</button>
+        <svg class="mob__menu" width="24" height="24">
+           <use href="./images/mob-menu.svg"></use>
+         </svg>
+
+     </div>
    </header>
 
 
-   <main></main>
+   <main>
+    <section class="container">
+      <h1>Artificial Intelligence</h1>
+    </section>
+   </main>
    <footer></footer>
 </body>
 </html>

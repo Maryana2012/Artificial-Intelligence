@@ -3,6 +3,57 @@
     align-items: center;
     justify-content: space-between;
     width: 390px;
-    padding: 16px;
+    width: 16px 20px;
     margin: 0 auto;
+    backdrop-filter: blur(10px);
+    background: rgba(191, 196, 200, 0.5);
+    @include tablet{
+        width: 744px;
+        padding: 20px 33px;
+    }
+    @include desktop{
+        width: 1440px;
+        padding: 20px 48px;
+    }
+}
+.navigation__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation{
+    display: none;
+    @include desktop{
+        display: flex;
+    }
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-right: 56px;
+}
+.header__link{
+    width: 100%;
+    padding: 8px;
+}
+// .header__item{
+
+// }
+.button__involved{
+    display: none;
+    @include tablet{
+        display: flex;
+    }
+    @include desktop{
+        display: flex;
+    }
+}
+.mob__menu{
+    @include tablet{
+        margin-left: 24px;
+    }
+    @include desktop{
+        display: none;
+    }
 }
