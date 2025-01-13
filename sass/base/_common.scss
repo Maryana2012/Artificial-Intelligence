@@ -1,7 +1,7 @@
 .container{
     width: 390px;
     padding: 40px 20px;
-    background-color: var(--gray-light);
+    background: rgba(191, 196, 200, 0.5);
     margin: 0 auto;
     @include tablet{
         width: 744px;
@@ -44,5 +44,24 @@
     line-height: 140%;
     letter-spacing: 0.01em;
     color: var(--black);
-
+}
+h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    // text-transform: capitalize;
+    text-align: center;
+    color: var(--black);
+    @include tablet{
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 110%;
+    }
+    @include desktop{
+        font-weight: 800;
+        font-size: 112px;
+        line-height: 100%;
+    }
 }
