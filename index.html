@@ -47,12 +47,23 @@
 
 
    <main>
-    <section class="container">
-      <h1>Artificial Intelligence</h1>
-      <h2 class="hero__title">Journey into Tomorrow</h2>
-  
+    <section class="container hero__container">
+      <h1 class="hero__title">Artificial Intelligence</h1>
+      <h2 class="hero__subtitle on-image">Journey into Tomorrow</h2>
+      <picture>
+        <source srcset="./images/hero-desk-1x.png 1x,
+        ./images/hero-desk-2x.png 2x" 
+        media="(min-width: 1440px)" />
+        <source srcset=" ./images/hero-tab-1x.png 1x, ./images/hero-tab-2x.png 2x" 
+        media="(min-width: 744px) and (max-width: 1439px)" />
+        <source srcset="./images/hero-mob-1x.png 1x, ./images/hero-mob-2x.png 2x" 
+        media="(max-width: 743px)" />
+     <img class="hero__image" src="./images/hero-mob-1x.png" alt="hero image"  />
+     </picture>
     </section>
    </main>
    <footer></footer>
+
+   <script src="./js/text-on-image.js"></script>
 </body>
 </html>

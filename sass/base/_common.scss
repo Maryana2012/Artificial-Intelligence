@@ -45,23 +45,3 @@
     letter-spacing: 0.01em;
     color: var(--black);
 }
-h1{
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    // text-transform: capitalize;
-    text-align: center;
-    color: var(--black);
-    @include tablet{
-        font-weight: 800;
-        font-size: 80px;
-        line-height: 110%;
-    }
-    @include desktop{
-        font-weight: 800;
-        font-size: 112px;
-        line-height: 100%;
-    }
-}
